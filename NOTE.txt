@@ -1,0 +1,41 @@
+PROFILE
+
+Name: Jm Dūblon
+Bio: Capture the logic, frustration, and art of coding.
+Text: Aspiring Software Developer passionate about building clean, user-friendly, and responsive web applications. Continuously learning and improving my skills in modern web technologies.
+
+SOCIALS
+
+Facebook: https://www.facebook.com/6jmxnz
+Instagram: https://www.instagram.com/iqxjmxnz
+Behance: https://www.behance.com/johnmidublon
+LinkedIn: https://www.linkedin.com/in/dublonjm/
+Github: https://github.com/Dublonx
+
+ABOUT ME
+
+Hi, I'm John Michael Dublon a passionate learner who's working towards becoming a Software Developer. I started getting interested in tech and designs because i love turning ideas into something people can actually see and use.
+
+Right now, I'm exploring web development and improving my design skills, one project at a time, I enjoy experimenting with layouts,colors and user interface to create designs that are both functional and visually appealing.
+
+I may still be at the beginning of my journey, but i'm always eager to learn and grow in this field.
+
+PROJECTS
+
+Profile Card
+    Live Demo: https://dublonx.github.io/Profile-Card/
+    Source Code: https://github.com/Dublonx/Profile-Card
+    Description: A simple and minimalist profile card for all developers out there
+
+Lakbay
+    Live Demo: https://dublonx.github.io/Lakbay/
+    Source Code: https://github.com/Dublonx/Lakbay
+    Description: A responsive travel agency website showcasing Philippine destinations and travel packages.
+
+GITHUB GRAPH
+
+https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=github-compact
+
+FOOTER
+
+@2026 Jm Dublon, All rights reserved.
