@@ -45,7 +45,76 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 0;
+    /* padding: 40px 0; */
     width: 100%;
     min-height: 100vh;
+}
+
+/* two column layout */
+.two-layout {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: var(--g-lg);
+    align-items: stretch;
+    min-height: 100vh;
+}
+
+.left-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.left-layout,
+.right-layout {
+    padding: 40px 0;
+}
+
+.l-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--g-md);
+}
+
+.c-caption {
+    font-family: var(--ff-text);
+    font-size: var(--sz-text-sm);
+    font-weight: 500;
+    color: var(--c-caption);
+}
+
+.c-name {
+    font-family: var(--ff-heading);
+    font-size: var(--sz-heading);
+    font-weight: bold;
+    color: var(--c-heading);
+}
+
+.c-text {
+    font-family: var(--ff-text);
+    font-size: var(--sz-text);
+    font-weight: 400;
+    color: var(--c-text);
+}
+
+.l-socials {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--g-md);
+}
+
+.l-socials p {
+    font-family: var(--ff-text);
+    font-size: var(--sz-text);
+    font-weight: 400;
+    color: var(--c-text);
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.l-socials p:hover {
+    transform: translateX(4px);
+    color: var(--c-caption);
 }
