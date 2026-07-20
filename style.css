@@ -55,7 +55,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: var(--g-lg);
-    align-items: stretch;
+    align-items: start;
     min-height: 100vh;
 }
 
@@ -93,7 +93,7 @@ body {
 
 .c-text {
     font-family: var(--ff-text);
-    font-size: var(--sz-text);
+    font-size: var(--sz-text-sm);
     font-weight: 400;
     color: var(--c-text);
 }
@@ -107,7 +107,7 @@ body {
 
 .l-socials p {
     font-family: var(--ff-text);
-    font-size: var(--sz-text);
+    font-size: var(--sz-text-sm);
     font-weight: 400;
     color: var(--c-text);
     cursor: pointer;
@@ -117,4 +117,36 @@ body {
 .l-socials p:hover {
     transform: translateX(4px);
     color: var(--c-caption);
+}
+
+/* right */
+.right-layout {
+    display: flex;
+    flex-direction: column;
+    gap: var(--g-lg);
+}
+
+section {
+    padding: 0 16px;
+}
+
+.title {
+    font-family: var(--ff-heading);
+    font-size: var(--sz-text);
+    font-weight: bold;
+    color: var(--c-heading);
+}
+
+.a-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--g-md);
+    margin-top: 16px;
+}
+
+.a-content p {
+    font-family: var(--ff-text);
+    font-size: var(--sz-text-sm);
+    font-weight: 400;
+    color: var(--c-text);
 }
