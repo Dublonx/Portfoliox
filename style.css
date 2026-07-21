@@ -150,3 +150,24 @@ section {
     font-weight: 400;
     color: var(--c-text);
 }
+
+.skills-box {
+    margin-top: var(--g-lg);
+    display: flex;
+    align-items: center;
+    gap: var(--g-md);
+    flex-wrap: wrap;
+}
+
+.s-tacks {
+    font-family: var(--ff-text);
+    font-size: var(--sz-text-sm);
+    font-weight: 400;
+    color: var(--c-text);
+    padding: 4px 0;
+    width: 100px;
+    border: 1px solid var(--c-text);
+    border-radius: var(--br-sm);
+    cursor: pointer;
+    text-align: center;
+}
