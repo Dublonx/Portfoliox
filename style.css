@@ -171,3 +171,41 @@ section {
     cursor: pointer;
     text-align: center;
 }
+
+.projects-box {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: var(--g-md);
+}
+
+.b-card .c-title {
+    font-family: var(--ff-heading);
+    font-size: var(--sz-text);
+    font-weight: 500;
+    color: var(--c-text);
+}
+
+.b-card .c-description {
+    font-family: var(--ff-text);
+    font-size: var(--sz-text-sm);
+    font-weight: 400;
+    color: var(--c-text);
+    margin-top: 8px;
+}
+
+.b-actions {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: var(--g-md);
+}
+
+.a-demo,
+.a-source {
+    font-family: var(--ff-text);
+    font-size: var(--sz-text-sm);
+    font-weight: 400;
+    color: var(--c-caption);
+    text-decoration: none;
+}
