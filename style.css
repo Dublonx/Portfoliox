@@ -174,7 +174,8 @@ section {
 
 .projects-box {
     margin-top: 16px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: var(--g-md);
 }
