@@ -257,3 +257,15 @@ section {
 #overlay.active {
     display: flex;
 }
+
+.github-box {
+    margin-top: 16px;
+    width: 100%;
+    height: auto;
+}
+
+.github-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
