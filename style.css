@@ -211,6 +211,11 @@ section {
     text-decoration: none;
 }
 
+.a-demo:hover,
+.a-source:hover {
+    text-decoration: underline;
+}
+
 .certifications-box {
     display: flex;
     align-items: center;
