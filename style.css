@@ -210,3 +210,16 @@ section {
     color: var(--c-caption);
     text-decoration: none;
 }
+
+.certifications-box {
+    display: flex;
+    align-items: center;
+    gap: var(--g-md);
+    flex-wrap: wrap;
+}
+
+.certifications-box img {
+    width: 160px;
+    height: 100px;
+    margin-top: 16px;
+}
