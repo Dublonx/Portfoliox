@@ -41,6 +41,11 @@ body {
     --br-lg: 16px
 }
 
+/* all updates */
+.no-scroll {
+    overflow: hidden;
+}
+
 /* profile */
 .container {
     max-width: 1200px;
