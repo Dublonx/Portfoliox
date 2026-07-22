@@ -1,10 +1,11 @@
 // certifications preview
 const overlay = document.querySelector('#overlay');
-const imageOverlay = document.querySelector('#imageOverlay img');
-const prevImg = document.querySelectorAll('.prev');
+const previewImg = document.querySelector('#preview-img');
+const imgCert = document.querySelectorAll('.img-cert');
 
-prevImg.forEach(img => {
-    img.addEventListener("click", () => {
-        console.log("clicked!");
-    });
+imgCert.forEach(img => {
+    img.onclick = () => {
+        overlay.classList.add("active");
+        previewImg.src = img.src;
+    };
 });

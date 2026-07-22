@@ -243,8 +243,7 @@ section {
     align-items: center;
 }
 
-#overlay,
-#imageOverlay {
+#overlay #preview-img {
     width: auto;
     height: auto;
     max-width: 90%;
