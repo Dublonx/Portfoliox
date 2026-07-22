@@ -9,3 +9,8 @@ imgCert.forEach(img => {
         previewImg.src = img.src;
     };
 });
+
+// close certifications preview
+overlay.onclick = () => {
+    overlay.classList.remove("active");
+}
