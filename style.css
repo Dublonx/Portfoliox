@@ -315,4 +315,9 @@ section {
     .projects-box {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .certifications-box img {
+        width: 100%;
+        height: auto;
+    }
 }
