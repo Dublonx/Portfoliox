@@ -8,6 +8,16 @@
     box-sizing: border-box;
 }
 
+/* for scrollbar - firefox, ie/edge, chrome, and safar */
+html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     background-color: var(--c-background);
 }
