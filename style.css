@@ -282,6 +282,46 @@ section {
     object-fit: cover;
 }
 
+.experience-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+    gap: var(--g-md);
+    margin-top: 16px;
+}
+
+.e-box {
+    display: flex;
+    flex-direction: column;
+    gap: var(--g-sm);
+}
+
+.e-title {
+    font-family: var(--ff-heading);
+    font-size: var(--sz-text);
+    font-weight: 500;
+    color: var(--c-text);
+}
+
+.e-text {
+    margin-top: 8px;
+    font-family: var(--ff-text);
+    font-size: var(--sz-text-sm);
+    font-weight: 400;
+    color: var(--c-text);
+    display: flex;
+    flex-direction: column;
+    gap: var(--g-sm);
+}
+
+.e-text p {
+    padding-left: 8px;
+}
+
+.e-text p::before {
+    content: "• ";
+}
+
 /* tablet - view */
 @media screen and (max-width: 768px) {
     .two-layout {
