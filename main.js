@@ -17,3 +17,11 @@ overlay.onclick = () => {
     overlay.classList.remove("active");
     body.classList.remove("no-scroll");
 }
+
+// click - audio
+const clickSound = new Audio("Assets/Audio/click.mp3");
+
+document.addEventListener("click", () => {
+    clickSound.currentTime = 0
+    clickSound.play()
+});
