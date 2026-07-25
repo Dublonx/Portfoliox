@@ -370,4 +370,8 @@ section {
         width: 100%;
         height: auto;
     }
+
+    .experience-box {
+        grid-template-columns: 1fr;
+    }
 }
