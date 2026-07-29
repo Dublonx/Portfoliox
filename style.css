@@ -420,4 +420,10 @@ section {
     .experience-box {
         grid-template-columns: 1fr;
     }
+
+    /* education */
+    .e-name,
+    .e-date {
+        font-size: var(--sz-text-sm);
+    }
 }
