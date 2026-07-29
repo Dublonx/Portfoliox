@@ -322,6 +322,52 @@ section {
     content: "• ";
 }
 
+/* education */
+.education-box {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--g-md);
+}
+
+.education-grp {
+    display: flex;
+    flex-direction: column;
+    gap: var(--g-sm);
+}
+
+.education-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.e-name {
+    font-family: var(--ff-text);
+    font-size: var(--sz-text);
+    font-weight: 500;
+    color: var(--c-text);
+}
+
+.e-date {
+    font-family: var(--ff-text);
+    font-size: var(--sz-text);
+    font-weight: 400;
+    color: var(--c-text);
+}
+
+.e-message {
+    font-family: var(--ff-text);
+    font-size: var(--sz-text-sm);
+    font-weight: 400;
+    color: var(--c-text);
+}
+
+.e-message::before {
+    content: "• ";
+    padding-left: 8px;
+}
+
 /* tablet - view */
 @media screen and (max-width: 768px) {
     .two-layout {
