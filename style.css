@@ -374,6 +374,19 @@ section {
     padding-left: 8px;
 }
 
+/* footer */
+footer {
+    padding: 16px 0;
+}
+
+.f-text {
+    font-family: var(--ff-text);
+    font-size: var(--sz-text-sm);
+    font-weight: 500;
+    color: var(--c-text);
+    text-align: center;
+}
+
 /* tablet - view */
 @media screen and (max-width: 768px) {
     .two-layout {
