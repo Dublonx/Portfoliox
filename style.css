@@ -187,6 +187,12 @@ section {
     border-radius: var(--br-sm);
     cursor: pointer;
     text-align: center;
+    transition: all .5s ease;
+}
+
+.s-tacks:hover {
+    border: 1px solid var(--c-caption);
+    color: var(--c-caption);
 }
 
 .projects-box {
