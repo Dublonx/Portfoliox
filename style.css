@@ -122,18 +122,23 @@ body {
     gap: var(--g-md);
 }
 
-.l-socials p {
+.l-socials a {
+    text-decoration: none;
+    color: var(--c-text);
     font-family: var(--ff-text);
     font-size: var(--sz-text-sm);
     font-weight: 400;
-    color: var(--c-text);
     cursor: pointer;
     transition: all .5s ease;
 }
 
-.l-socials p:hover {
+.l-socials a:hover {
     transform: translateX(4px);
     color: var(--c-caption);
+}
+
+.l-socials i {
+    color: var(--c-text);
 }
 
 /* right */
