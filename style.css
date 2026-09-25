@@ -56,6 +56,19 @@ body {
     overflow: hidden;
 }
 
+/* mouse glow */
+.mouse-glow {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    pointer-events: none;
+    background: rgba(76, 0, 255, 0.15);
+    filter: blur(40px);
+    transform: translate;
+    z-index: -1;
+}
+
 
 /* profile */
 .container {
