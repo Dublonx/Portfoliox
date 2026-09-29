@@ -79,6 +79,13 @@ body {
 }
 
 /* back to top button */
+.back-to-top {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
 #top-cta {
     display: inline-flex;
     align-items: center;
@@ -88,6 +95,9 @@ body {
     background-color: var(--c-caption);
     color: var(--c-heading);
     border-radius: 50%;
+    position: fixed;
+    z-index: 1;
+    bottom: 40px;
 }
 
 /* two column layout */
