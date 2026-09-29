@@ -69,7 +69,6 @@ body {
     z-index: -1;
 }
 
-
 /* profile */
 .container {
     max-width: 1200px;
@@ -77,6 +76,18 @@ body {
     /* padding: 40px 0; */
     width: 90%;
     min-height: 100vh;
+}
+
+/* back to top button */
+#top-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: var(--c-caption);
+    color: var(--c-heading);
+    border-radius: 50%;
 }
 
 /* two column layout */
