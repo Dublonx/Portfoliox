@@ -501,6 +501,11 @@ footer {
 
 /* mobile - view */
 @media screen and (max-width: 480px) {
+    /* back to top - cta */
+    #top-cta {
+        right: 20px;
+    }
+
     .l-socials a {
         text-align: center;
     }
