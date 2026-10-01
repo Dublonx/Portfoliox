@@ -50,3 +50,22 @@ function animateGlow() {
 }
 
 animateGlow();
+
+// back to top - scrolled
+const topCta = document.querySelector('#top-cta');
+
+window.addEventListener("scroll", () => {
+    // if
+    if (window.scrollY > 200) {
+        topCta.classList.add("scrolled");
+    } else {
+        topCta.classList.remove("scrolled");
+    }
+});
+
+topCta.addEventListener("click", () => {
+    window.scrollTo({
+        behavior: "smooth",
+        top: 0
+    })
+})
