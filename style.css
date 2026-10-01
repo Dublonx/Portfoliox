@@ -458,6 +458,11 @@ footer {
 
 /* tablet - view */
 @media screen and (max-width: 768px) {
+    /* back to top - cta */
+    #top-cta {
+        right: 40px;
+    }
+
     .two-layout {
         display: flex;
         flex-direction: column;
