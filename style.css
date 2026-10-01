@@ -65,7 +65,6 @@ body {
     pointer-events: none;
     background: rgba(76, 0, 255, 0.15);
     filter: blur(40px);
-    transform: translate;
     z-index: -1;
 }
 
