@@ -100,11 +100,22 @@ body {
     visibility: hidden;
     opacity: 0;
     cursor: pointer;
+    animation: up .5s infinite alternate;
 }
 
 #top-cta.scrolled {
     visibility: visible;
     opacity: 1;
+}
+
+@keyframes up {
+    from {
+        transform: translateY(0);
+    }
+    
+    to {
+        transform: translateY(4px);
+    }
 }
 
 /* two column layout */
