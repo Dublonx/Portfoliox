@@ -334,7 +334,8 @@ section {
     display: flex;
 }
 
-.github-box {
+/* github graph - hide */
+/* .github-box {
     margin-top: 16px;
     width: 100%;
     height: auto;
@@ -344,7 +345,7 @@ section {
     width: 100%;
     height: auto;
     object-fit: cover;
-}
+} */
 
 .experience-box {
     display: grid;
