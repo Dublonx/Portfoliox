@@ -147,6 +147,17 @@ body {
     gap: var(--g-md);
 }
 
+.l-content-grp {
+    display: flex;
+    align-items: center;
+    gap: var(--g-sm);
+}
+
+.l-content-grp img {
+    width: 20px;
+    height: auto;
+}
+
 .c-caption {
     font-family: var(--ff-text);
     font-size: var(--sz-text-sm);
