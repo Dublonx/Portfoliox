@@ -19,12 +19,12 @@ overlay.onclick = () => {
 }
 
 // click - audio
-const clickSound = new Audio("Assets/Audio/click.mp3");
+// const clickSound = new Audio("Assets/Audio/click.mp3");
 
-document.addEventListener("click", () => {
-    clickSound.currentTime = 0
-    clickSound.play()
-});
+// document.addEventListener("click", () => {
+//    clickSound.currentTime = 0
+//    clickSound.play()
+// });
 
 // mouse glow
 const glow = document.querySelector(".mouse-glow");
