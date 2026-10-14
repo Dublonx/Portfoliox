@@ -70,6 +70,18 @@ body {
     z-index: -1;
 }
 
+/* scroll progress indicator */
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: var(--c-caption);
+    z-index: 99;
+    transition: width 0.5s linear;
+}
+
 /* ============================================ */
 
 /* profile */
