@@ -69,3 +69,13 @@ topCta.addEventListener("click", () => {
         top: 0
     })
 })
+
+// scroll progress indicator
+const scrollProgress = document.querySelector('#scroll-progress');
+
+window.addEventListener("scroll", () => {
+    const scrollTop = window.scrollY;
+    const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const progress = (scrollTop / scrollHeight) * 100;
+    scrollProgress.style.width = `${progress}%`;
+});
