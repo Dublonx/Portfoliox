@@ -51,6 +51,8 @@ body {
     --br-lg: 16px
 }
 
+/* ============================================ */
+
 /* all updates */
 .no-scroll {
     overflow: hidden;
@@ -67,6 +69,8 @@ body {
     filter: blur(40px);
     z-index: -1;
 }
+
+/* ============================================ */
 
 /* profile */
 .container {
