@@ -609,6 +609,10 @@ footer {
     #top-cta {
         right: 20px;
     }
+    
+    .l-socials {
+        margin-top: 16px;
+    }
 
     .l-socials a {
         text-align: center;
