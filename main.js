@@ -79,3 +79,10 @@ window.addEventListener("scroll", () => {
     const progress = (scrollTop / scrollHeight) * 100;
     scrollProgress.style.width = `${progress}%`;
 });
+
+// icons profile — profile card
+const profileCardLink = document.querySelector('#profile-card-link');
+
+profileCardLink.addEventListener("click", () => {
+    window.location.href = "https://dublonx.github.io/Profile-Card/";
+});
