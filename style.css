@@ -195,6 +195,37 @@ body {
     color: var(--c-text);
 }
 
+.l-icons {
+    display: flex;
+    flex-direction: column;
+    gap: var(--g-md);
+    width: 100%;
+    margin-top: 8px;
+}
+
+.icons-profile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: var(--g-sm);
+    color: var(--c-text);
+}
+
+.icons-profile i {
+    font-size: var(--sz-text-sm);
+}
+
+.icons-profile .icons-profile-text {
+    font-family: var(--ff-text);
+    font-size: var(--sz-text-sm);
+    font-weight: 400;
+    color: var(--c-heading);
+}
+
+.icons-profile-text span {
+    color: var(--c-text);
+}
+
 .l-socials {
     margin-top: auto;
     display: flex;
