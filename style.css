@@ -226,7 +226,7 @@ body {
     color: var(--c-text);
 }
 
-#profile-card-link {
+.underlined{
     text-decoration: underline;
 }
 
