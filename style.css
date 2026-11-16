@@ -226,6 +226,10 @@ body {
     color: var(--c-text);
 }
 
+#profile-card-link {
+    text-decoration: underline;
+}
+
 .l-socials {
     margin-top: auto;
     display: flex;
