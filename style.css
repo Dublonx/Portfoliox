@@ -296,23 +296,30 @@ section {
     flex-wrap: wrap;
 }
 
+.skills-box-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--g-md);
+    width: 100px;
+}
+
+.skills-box-icons img {
+    width: 12px;
+    height: auto;
+    object-fit: cover;
+}
+
 .s-tacks {
     font-family: var(--ff-text);
     font-size: var(--sz-text-sm);
     font-weight: 400;
     color: var(--c-text);
     padding: 4px 0;
-    width: 100px;
-    border: 1px solid var(--c-text);
     border-radius: var(--br-sm);
     cursor: pointer;
     text-align: center;
     transition: all .5s ease;
-}
-
-.s-tacks:hover {
-    border: 1px solid var(--c-caption);
-    color: var(--c-caption);
 }
 
 .projects-box {
