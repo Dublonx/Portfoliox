@@ -20,6 +20,7 @@ html::-webkit-scrollbar {
 
 body {
     background-color: var(--c-background);
+    line-height: 1.5;
 }
 
 /* css variables */
