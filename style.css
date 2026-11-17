@@ -301,7 +301,7 @@ section {
     align-items: center;
     justify-content: flex-start;
     gap: var(--g-md);
-    width: 100px;
+    width: 150px;
 }
 
 .skills-box-icons img {
@@ -631,6 +631,11 @@ footer {
 
     .l-socials a:hover {
         transform: translateY(-4px);
+    }
+    
+    /* skills */
+    .skills-box-icons {
+        width: 100px;
     }
 
     .projects-box {
