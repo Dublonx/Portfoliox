@@ -164,6 +164,31 @@ body {
     gap: var(--g-md);
 }
 
+.l-availability {
+    display: flex;
+    align-items: center;
+    gap: var(--g-sm);
+    background-color: var(--c-dark);
+    width: max-content;
+    padding: 2px 8px;
+    border-radius: 12px;
+}
+
+.l-availability span {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: var(--c-caption);
+    border-radius: 50%;
+}
+
+.l-availability {
+    font-family: var(--ff-text);
+    font-size: var(--sz-text-sm);
+    font-weight: 500;
+    color: var(--c-text);
+}
+
 .l-content-grp {
     display: flex;
     align-items: center;
